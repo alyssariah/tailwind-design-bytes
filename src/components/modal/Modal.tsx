@@ -1,7 +1,7 @@
 'use client'; // This is a client component 👈🏽
 import { useRef, useEffect, useCallback, ReactNode } from 'react';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
-import { useUI } from '@/contexts/managed-ui';
+import { useUI } from '@contexts/managed-ui';
 import { Dialog } from '../dialog/Dialog';
 import { IoAlertCircleOutline } from 'react-icons/io5';
 import { Button } from '../button/Button';

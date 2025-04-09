@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import { BsPerson } from 'react-icons/bs';
-import { useUI } from '@/contexts/managed-ui';
+import { useUI } from '@contexts/managed-ui';
 import { Button } from '../button/Button';
 
 export interface NavbarProps {

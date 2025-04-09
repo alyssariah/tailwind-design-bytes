@@ -4,7 +4,7 @@ import { ModalUI } from '@components/modal/Modal';
 import { SidebarUI } from '@components/sidebar/Sidebar';
 import Navbar from '@components/navbar/Navbar';
 import { Metadata } from 'next';
-import { Footer } from '@/components/footer/Footer';
+import { Footer } from '@components/footer/Footer';
 
 export const metadata: Metadata = {
   title: {

@@ -9,19 +9,10 @@ module.exports = {
     extend: {
       screens: {
         'sm': '500px',
-        // => @media (min-width: 640px) { ... }
-
         'md': '768px',
-        // => @media (min-width: 768px) { ... }
-
         'lg': '1024px',
-        // => @media (min-width: 1024px) { ... }
-
         'xl': '1440px',
-        // => @media (min-width: 1280px) { ... }
-
         '2xl': '1920px',
-        // => @media (min-width: 1536px) { ... }
       },
       colors: {
         'transparent': 'transparent',
@@ -66,29 +57,16 @@ module.exports = {
       fontSize: {
         'xs': '12px',
         'sm': '14px',
-        'tiny': '12px',
-        'base': '16px',
-        'lg': '20px',
-        'xl': '22px',
+        'md': '16px',
+        'lg': '18px',
+        'xl': '20px',
         '2xl': '24px',
-        '3xl': '28px',
-        '4xl': '32px',
-        '5xl': '36px',
-        '6xl': '45px',
-        '7xl': '57px',
+        '3xl': '32px',
+        '4xl': '48px',
       },
       fontWeight: {
-        'hairline': 100,
-        'extra-light': 100,
-        'thin': 200,
-        'light': 300,
-        'normal': 400,
-        'medium': 500,
-        'semibold': 600,
-        'bold': 700,
-        'extrabold': 800,
-        'extra-bold': 800,
-        'black': 900,
+        normal: 400,
+        bold: 700,
       },
       borderRadius: {
         'none': '0',

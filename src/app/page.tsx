@@ -2,7 +2,7 @@ import { fetchHomeContent } from '@lib/home';
 import TyperwriterComp from '@components/typewriter/TypewriterComp';
 import Features from '@components/features/Features';
 import animationData from '../../public/animation.json';
-import LottieComp from '@/components/lottie/Lottie';
+import LottieComp from '@components/lottie/Lottie';
 
 export default function Home() {
   const content = fetchHomeContent();
